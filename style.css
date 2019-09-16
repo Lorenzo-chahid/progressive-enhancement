@@ -1,8 +1,14 @@
 *{
     color: #273258;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 2em;
+    margin:0;
+    padding: 0;
     
+}
+
+h1{
+    font-family: 'Chilanka', cursive;
 }
 body{
     max-width: 90%;
@@ -41,6 +47,7 @@ blockquote, q{
     padding-left: 1em;
     margin: 80px;
     font-style:italic;
+    clear: both;
 }
 
 .farm{
@@ -55,6 +62,21 @@ body header blockquote{
     background: yellow;
 }
 
+.righti{
+
+   float: right;
+   clear:right;
+   margin-left: 20px;
+   border-radius: 30px;
+}
+
+.lefti{
+    float: left;
+    clear: left;
+    margin-right: 20px;
+    border-radius:30px;
+}
+
 
 tr:nth-child(even){
     background-color:gray;
@@ -64,22 +86,22 @@ li:first-child{
     background-image: url(img/bien.png);
     background-repeat: no-repeat;
     background-size: 2em;
-    padding: 0px 50px ;
+    background-position: right;
+    
 }
 
 li:nth-child(2){
     background-image: url(img/mal.png);
     background-repeat: no-repeat;
     background-size: 2em;
-    padding: 0px 50px ;
-    margin-top: 5px;
+    background-position: right;
 }
 
 li:nth-child(3){
     background-image: url(img/chat.png);
     background-repeat: no-repeat;
     background-size: 2em;
-    padding: 0px 50px ;
+    background-position: right;
 }
 
 
