@@ -1,0 +1,119 @@
+*{
+    color: #273258;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2em;
+    margin:0;
+    padding: 0;
+    
+}
+
+h1{
+    font-family: 'Chilanka', cursive;
+}
+body{
+    max-width: 90%;
+    margin: auto;
+   /* background-image: url(img/sushi.jpg);
+    background-repeat: no-repeat;
+    
+    background-color: -webkit-linear-gradient(8deg, rgb(108, 111, 113), rgb(245, 247, 248));
+    background-color: linear-gradient(8deg, rgb(108, 111, 113), rgb(245, 247, 248)); */
+    background-image: url(img/sushi.jpg); /* fallback */
+    background-image: url(img/sushi.jpg), linear-gradient(#eeeced, #31302f);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+  }
+
+
+a{
+    color: rgb(95, 187, 72);
+}
+
+a:hover{
+    color: purple;
+}
+
+a:visited{
+    color: gray;
+}
+
+blockquote, q{
+    font-size: 160%;
+    max-width: 50;
+    margin: 50%;
+    background: rgb(209, 209, 209);
+    border-left: 3px solid #ac5a0e;
+    padding-left: 1em;
+    margin: 80px;
+    font-style:italic;
+    clear: both;
+}
+
+.farm{
+    border-color: green;
+}
+
+.citizen{
+    border-color: azure;
+}
+
+body header blockquote{
+    background: yellow;
+}
+
+.righti{
+
+   float: right;
+   clear:right;
+   margin-left: 20px;
+   border-radius: 30px;
+}
+
+.lefti{
+    float: left;
+    clear: left;
+    margin-right: 20px;
+    border-radius:30px;
+}
+
+
+tr:nth-child(even){
+    background-color:gray;
+}
+
+li:first-child{
+    background-image: url(img/bien.png);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position: right;
+    
+}
+
+li:nth-child(2){
+    background-image: url(img/mal.png);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position: right;
+}
+
+li:nth-child(3){
+    background-image: url(img/chat.png);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position: right;
+}
+
+
+.evil{
+    color: red;
+    text-transform: uppercase;
+}
+.good{
+    color:green;
+    text-transform: uppercase;
+}
+
+p:first-of-type{
+    font-weight: bold;
+}
